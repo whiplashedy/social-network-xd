@@ -3,7 +3,7 @@ import {setAuthThunk} from "./auth-reducer";
 const SET_INITIALIZED = 'SET_INITIALIZED'
 
 let initialState = {
-    initialized: false
+    initialized: true
 };
 
 const appReducer = (state = initialState, action) => {
